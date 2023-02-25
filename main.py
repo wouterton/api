@@ -3,7 +3,7 @@ from colorama import Fore, init
 
 import sys
 
-sys.stdout.write("\x1b]2;General Home V1 Home Holder!\x07")
+sys.stdout.write("\x1b]2; Home V1 Home Holder!\x07")
 
 banner = f"""
 ██╗  ██╗ ██████╗ ███╗   ███╗███████╗    ██╗   ██╗ ██╗
