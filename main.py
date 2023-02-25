@@ -38,7 +38,7 @@ methods = f"""
 def login():
   user = input(f'{Fore.LIGHTRED_EX}User: ')
   password = input(f'{Fore.LIGHTRED_EX}Pass: ')
-  f = open('users/users.txt', 'r')
+  f = open('users.txt', 'r')
   check = f.read()
   if user and password in check:
     main()
@@ -62,7 +62,7 @@ def main():
     os.system('clear')
     print(banner)
     ip = input(f'{Fore.RED} ip:')
-    os.system(f'perl methods/dos.pl {ip}')
+    os.system(f'perl dos.pl {ip}')
     main()
   else:
     os.system('clear')
